@@ -2,7 +2,7 @@
 
 Dự án mô phỏng robot bám theo ArUco Marker sử dụng ROS 2 Humble và Gazebo.
 
-## 1. Cài đặt (Installation)
+# 1. Cài đặt (Installation)
 
 **Yêu cầu:** Ubuntu 22.04, ROS 2 Humble.
 
@@ -21,7 +21,7 @@ sudo apt update && sudo apt install -y \
 ```
 Build Workspace
 
-# 1. Tạo workspace và clone repos
+## 1. Tạo workspace và clone repos
 ```
 mkdir -p ~/aruco_tracking_ws/src
 cd ~/aruco_tracking_ws/src
@@ -29,13 +29,13 @@ git clone https://github.com/datvu352k4/aruco_tracking_ros.git
 git clone https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation
 ```
 
-# 2. Build
+## 2. Build
 ```
 cd ~/aruco_tracking_ws
 colcon build --symlink-install
 source install/setup.bash
 ```
-2. Cấu hình (Configuration)
+# 2. Cấu hình (Configuration)
 ⚠️ Quan trọng:
 
 Gazebo: Phải tạo một Box có dán ảnh ArUco (xem phần Phụ lục bên dưới).
@@ -48,7 +48,7 @@ marker_id: ID của ảnh marker.
 
 camera_frame: Tên frame camera của robot.
 
-3. Hướng dẫn chạy (Usage)
+# 3. Hướng dẫn chạy (Usage)
 Mở 3 Terminal, chạy lần lượt (nhớ source install/setup.bash ở mỗi terminal):
 ```
 Terminal 1: Khởi động Mô phỏng
@@ -60,7 +60,7 @@ ros2 launch aruco_pose_estimation aruco_pose_estimation.launch.py
 Terminal 3: Chạy Controller
 ros2 run bumperbot_controller control.py
 ```
-📦 Phụ lục: Tạo ArUco Box trong Gazebo
+# 📦 Phụ lục: Tạo ArUco Box trong Gazebo
 Tạo thư mục: ~/.gazebo/models/my_aruco_box/ Cấu trúc file cần có:
 ```
 my_aruco_box/
