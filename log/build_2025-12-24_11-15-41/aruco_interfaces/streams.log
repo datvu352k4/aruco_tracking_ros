@@ -1,0 +1,231 @@
+[0.026s] Invoking command in '/home/datvu/bumperbot_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/datvu/bumperbot_ws/install/aruco_interfaces
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.228s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.300s] -- Detecting CXX compiler ABI info - done
+[0.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.307s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.672s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.738s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.781s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.787s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.830s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.873s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.175s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.515s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.680s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.681s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.701s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.702s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.702s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.719s] -- Found PythonExtra: .so  
+[1.769s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.800s] -- Added test 'lint_cmake' to check CMake code style
+[1.801s] -- Added test 'xmllint' to check XML markup files
+[1.805s] -- Configuring done
+[1.842s] -- Generating done
+[1.857s] -- Build files have been written to: /home/datvu/bumperbot_ws/build/aruco_interfaces
+[1.869s] Invoked command in '/home/datvu/bumperbot_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/datvu/bumperbot_ws/install/aruco_interfaces
+[1.871s] Invoking command in '/home/datvu/bumperbot_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_interfaces -- -j16 -l16
+[1.931s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.934s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.957s] [  6%] Built target ament_cmake_python_copy_aruco_interfaces
+[2.233s] [  6%] Built target aruco_interfaces__cpp
+[2.252s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.259s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.273s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.329s] running egg_info
+[2.336s] [ 19%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_interfaces/msg/detail/aruco_markers__functions.c.o[0m
+[2.362s] creating aruco_interfaces.egg-info
+[2.362s] writing aruco_interfaces.egg-info/PKG-INFO
+[2.363s] writing dependency_links to aruco_interfaces.egg-info/dependency_links.txt
+[2.363s] writing top-level names to aruco_interfaces.egg-info/top_level.txt
+[2.363s] writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[2.422s] [ 22%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_generator_c.so[0m
+[2.451s] reading manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[2.453s] writing manifest file 'aruco_interfaces.egg-info/SOURCES.txt'
+[2.513s] [ 22%] Built target ament_cmake_python_build_aruco_interfaces_egg
+[2.527s] [ 22%] Built target aruco_interfaces__rosidl_generator_c
+[2.552s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.552s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.557s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.716s] [ 35%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[2.744s] [ 38%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o[0m
+[2.749s] [ 41%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o[0m
+[3.052s] [ 45%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/aruco_interfaces/msg/aruco_markers__type_support.cpp.o[0m
+[3.118s] [ 48%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aruco_interfaces/msg/detail/aruco_markers__type_support.c.o[0m
+[3.142s] [ 51%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_c.so[0m
+[3.202s] [ 54%] [32mBuilding CXX object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o[0m
+[3.233s] [ 58%] [32m[1mLinking C shared library libaruco_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.248s] [ 58%] Built target aruco_interfaces__rosidl_typesupport_c
+[3.311s] [ 58%] Built target aruco_interfaces__rosidl_typesupport_introspection_c
+[3.314s] [ 61%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_cpp.so[0m
+[3.417s] [ 61%] Built target aruco_interfaces__rosidl_typesupport_cpp
+[3.746s] [ 64%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.811s] [ 67%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.820s] [ 70%] [32m[1mLinking CXX shared library libaruco_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.836s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_introspection_cpp
+[3.886s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.893s] [ 70%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c
+[3.906s] [ 70%] Built target aruco_interfaces
+[3.920s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.141s] [ 74%] Built target aruco_interfaces__py
+[4.160s] [ 77%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_generator_py.dir/rosidl_generator_py/aruco_interfaces/msg/_aruco_markers_s.c.o[0m
+[4.307s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so[0m
+[4.357s] [ 80%] Built target aruco_interfaces__rosidl_generator_py
+[4.377s] [ 83%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.377s] [ 87%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.377s] [ 90%] [32mBuilding C object CMakeFiles/aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.483s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.483s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.488s] [100%] [32m[1mLinking C shared library rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.523s] [100%] Built target aruco_interfaces__rosidl_typesupport_c__pyext
+[4.526s] [100%] Built target aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.528s] [100%] Built target aruco_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.537s] Invoked command in '/home/datvu/bumperbot_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_interfaces -- -j16 -l16
+[4.539s] Invoking command in '/home/datvu/bumperbot_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_interfaces
+[4.546s] -- Install configuration: ""
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_interfaces
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__type_support.h
+[4.546s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__functions.c
+[4.547s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__struct.h
+[4.547s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__functions.h
+[4.547s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_markers.h
+[4.547s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.sh
+[4.547s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/library_path.dsv
+[4.548s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so
+[4.548s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_c.so" to ""
+[4.548s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.548s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.548s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.548s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.548s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h
+[4.548s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.548s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.548s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.549s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.549s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/aruco_markers.hpp
+[4.549s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__struct.hpp
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__type_support.hpp
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__builder.hpp
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__traits.hpp
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.550s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.550s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.550s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.550s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/dds_fastrtps
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.551s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.551s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.551s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.551s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__type_support.c
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so
+[4.551s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.551s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so
+[4.552s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_c.so" to ""
+[4.552s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces
+[4.552s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg
+[4.552s] -- Up-to-date: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail
+[4.552s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp
+[4.552s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/include/aruco_interfaces/aruco_interfaces/msg/detail/aruco_markers__type_support.cpp
+[4.552s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.552s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so
+[4.553s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.sh
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/pythonpath.dsv
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[4.553s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/libaruco_interfaces__rosidl_generator_py.so
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.554s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/_aruco_interfaces_s.ep.rosidl_typesupport_c.c
+[4.555s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg
+[4.555s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_markers.py
+[4.555s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_markers_s.c
+[4.555s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py
+[4.577s] Listing '/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces'...
+[4.577s] Compiling '/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/__init__.py'...
+[4.577s] Listing '/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg'...
+[4.577s] Compiling '/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/__init__.py'...
+[4.577s] Compiling '/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/msg/_aruco_markers.py'...
+[4.581s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.582s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.582s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.582s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.582s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.582s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/local/lib/python3.10/dist-packages/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.582s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so
+[4.582s] -- Set runtime path of "/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/libaruco_interfaces__rosidl_generator_py.so" to ""
+[4.582s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoMarkers.idl
+[4.582s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/msg/ArucoMarkers.msg
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_interfaces
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_interfaces
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.sh
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/ament_prefix_path.dsv
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.sh
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/environment/path.dsv
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.bash
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.sh
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.zsh
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/local_setup.dsv
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv
+[4.583s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/ament_index/resource_index/packages/aruco_interfaces
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_cppExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.584s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/export_aruco_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/cmake/aruco_interfacesConfig-version.cmake
+[4.585s] -- Installing: /home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.xml
+[4.587s] Invoked command in '/home/datvu/bumperbot_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_interfaces

@@ -1,0 +1,63 @@
+[0.899s] Invoking command in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/datvu/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/datvu/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.028s] /home/datvu/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.028s]   warnings.warn(msg)
+[1.099s] running egg_info
+[1.110s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[1.110s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[1.110s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[1.111s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[1.111s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[1.111s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[1.111s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.135s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.136s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.136s] running build
+[1.136s] running build_py
+[1.137s] creating /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.137s] copying bumperbot_py_examples/simple_service_server.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.137s] copying bumperbot_py_examples/__init__.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.137s] copying bumperbot_py_examples/simple_subscriber.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.137s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.137s] copying bumperbot_py_examples/simple_parameter.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.138s] copying bumperbot_py_examples/simple_tf_kinematics.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.138s] copying bumperbot_py_examples/simple_lifecycle_node.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.138s] copying bumperbot_py_examples/simple_publisher.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.138s] copying bumperbot_py_examples/simple_service_client.py -> /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[1.139s] running install
+[1.143s] running install_lib
+[1.168s] creating /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_server.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_tf_kinematics.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.168s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_lifecycle_node.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.169s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.169s] copying /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_service_client.py -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[1.169s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_server.py to simple_service_server.cpython-310.pyc
+[1.170s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[1.170s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[1.171s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-310.pyc
+[1.171s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[1.172s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_tf_kinematics.py to simple_tf_kinematics.cpython-310.pyc
+[1.172s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_lifecycle_node.py to simple_lifecycle_node.cpython-310.pyc
+[1.173s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.173s] byte-compiling /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_service_client.py to simple_service_client.cpython-310.pyc
+[1.174s] running install_data
+[1.174s] creating /home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.174s] copying resource/bumperbot_py_examples -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[1.175s] copying package.xml -> /home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[1.175s] running install_egg_info
+[1.200s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[1.201s] running install_scripts
+[1.250s] Installing simple_lifecycle_node script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_parameter script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_publisher script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_service_client script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_service_server script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_subscriber script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.250s] Installing simple_tf_kinematics script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.251s] Installing simple_turtlesim_kinematics script to /home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.251s] writing list of installed files to '/home/datvu/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[1.275s] Invoked command in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/datvu/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/datvu/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data

@@ -1,0 +1,873 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76007e19e410>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76007e19de40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76007e19de40>>, mixin_verb=('build',))
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.104s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/datvu/bumperbot_ws'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.120s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_bringup) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_bringup' with type 'ros.ament_cmake' and name 'bumperbot_bringup'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_controller) by extension 'ros'
+[0.123s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_controller' with type 'ros.ament_cmake' and name 'bumperbot_controller'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_cpp_examples) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_cpp_examples' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_description) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_firmware) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_firmware' with type 'ros.ament_cmake' and name 'bumperbot_firmware'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_localization) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_localization' with type 'ros.ament_cmake' and name 'bumperbot_localization'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_msgs) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_msgs' with type 'ros.ament_cmake' and name 'bumperbot_msgs'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/bumperbot_py_examples) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'ros'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['cmake', 'python']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'cmake'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'python'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extensions ['python_setup_py']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_interfaces) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-aruco-pose-estimation/aruco_interfaces' with type 'ros.ament_cmake' and name 'aruco_interfaces'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-aruco-pose-estimation/aruco_pose_estimation) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-aruco-pose-estimation/aruco_pose_estimation' with type 'ros.ament_cmake' and name 'aruco_pose_estimation'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'ros'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['cmake', 'python']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'cmake'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extensions ['python_setup_py']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco) by extension 'python_setup_py'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 12 installed packages in /home/datvu/bumperbot_ws/install
+[0.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 456 installed packages in /opt/ros/humble
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/aruco_interfaces', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_bringup', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.183s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.183s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_controller', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_description', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_firmware', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_localization', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.184s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.184s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_msgs', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/ros2_aruco', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco', 'symlink_install': False, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'aruco_pose_estimation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.185s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_pose_estimation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/aruco_pose_estimation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/aruco_pose_estimation', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_pose_estimation', 'symlink_install': False, 'test_result_base': None}
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.185s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.186s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.186s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/datvu/bumperbot_ws/build/bumperbot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/datvu/bumperbot_ws/install/bumperbot_py_examples', 'merge_install': False, 'path': '/home/datvu/bumperbot_ws/src/bumperbot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.186s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.187s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_msgs' with build type 'ament_cmake'
+[0.187s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_msgs'
+[0.189s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_interfaces' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_interfaces'
+[0.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_bringup' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_bringup'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.196s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_controller' with build type 'ament_cmake'
+[0.196s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_controller'
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.199s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_description' with build type 'ament_cmake'
+[0.199s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_description'
+[0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_firmware' with build type 'ament_cmake'
+[0.201s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_firmware'
+[0.201s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.201s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_localization' with build type 'ament_cmake'
+[0.204s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_localization'
+[0.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.206s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco_interfaces'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[0.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_interfaces -- -j16 -l16
+[0.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_bringup -- -j16 -l16
+[0.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[0.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[0.495s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/ros2_aruco_interfaces -- -j16 -l16
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_bringup -- -j16 -l16
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_bringup
+[0.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_description -- -j16 -l16
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_description
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_interfaces -- -j16 -l16
+[0.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_interfaces
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_firmware -- -j16 -l16
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_firmware
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_localization -- -j16 -l16
+[0.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_bringup)
+[0.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_localization
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_bringup
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup' for CMake module files
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup' for CMake config files
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_bringup', 'cmake_prefix_path')
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.dsv'
+[0.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.sh'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/bin'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/lib/pkgconfig/bumperbot_bringup.pc'
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/lib/python3.10/site-packages'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/bin'
+[0.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.sh'
+[0.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.bash'
+[0.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.zsh'
+[0.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/colcon-core/packages/bumperbot_bringup)
+[0.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_bringup)
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup' for CMake module files
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup' for CMake config files
+[0.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_bringup', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/hook/cmake_prefix_path.sh'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/bin'
+[0.560s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/lib/pkgconfig/bumperbot_bringup.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/lib/python3.10/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_bringup/bin'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.sh'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/bumperbot_bringup/package.zsh'
+[0.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_bringup/share/colcon-core/packages/bumperbot_bringup)
+[0.565s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[0.565s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description' for CMake module files
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_description
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description' for CMake config files
+[0.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[0.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[0.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/bin'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/bin'
+[0.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[0.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[0.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[0.581s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description' for CMake module files
+[0.583s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description' for CMake config files
+[0.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[0.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/bin'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/lib/python3.10/site-packages'
+[0.584s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_description/bin'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.sh'
+[0.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[0.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[0.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[0.588s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware' for CMake module files
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_msgs
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_firmware
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware' for CMake config files
+[0.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib'
+[0.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[0.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/bin'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages'
+[0.594s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/bin'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[0.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[0.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[0.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[0.597s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[0.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_firmware)
+[0.597s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware' for CMake module files
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware' for CMake config files
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'cmake_prefix_path')
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.ps1'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/cmake_prefix_path.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib'
+[0.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_firmware', 'ld_library_path_lib')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/hook/ld_library_path_lib.sh'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/bin'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib/pkgconfig/bumperbot_firmware.pc'
+[0.599s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib/python3.10/site-packages'
+[0.600s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_firmware/bin'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.ps1'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.sh'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.bash'
+[0.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.zsh'
+[0.601s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_firmware/share/colcon-core/packages/bumperbot_firmware)
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_interfaces)
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces' for CMake module files
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_interfaces
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces' for CMake config files
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'cmake_prefix_path')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.dsv'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.sh'
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib'
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'ld_library_path_lib')
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/bin'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/pkgconfig/aruco_interfaces.pc'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/python3.10/site-packages'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.bash'
+[0.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/aruco_interfaces/share/colcon-core/packages/aruco_interfaces)
+[0.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_interfaces)
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces' for CMake module files
+[0.617s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces' for CMake config files
+[0.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'cmake_prefix_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/cmake_prefix_path.sh'
+[0.618s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib'
+[0.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_interfaces', 'ld_library_path_lib')
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.ps1'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/hook/ld_library_path_lib.sh'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/bin'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/pkgconfig/aruco_interfaces.pc'
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/lib/python3.10/site-packages'
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_interfaces/bin'
+[0.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.sh'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.bash'
+[0.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_interfaces/share/aruco_interfaces/package.zsh'
+[0.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/aruco_interfaces/share/colcon-core/packages/aruco_interfaces)
+[0.624s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization' for CMake module files
+[0.625s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization' for CMake config files
+[0.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_localization
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/bin'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib/python3.10/site-packages'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/bin'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[0.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[0.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_localization)
+[0.635s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization' for CMake module files
+[0.636s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization' for CMake config files
+[0.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_localization', 'cmake_prefix_path')
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.dsv'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/hook/cmake_prefix_path.sh'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/bin'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib/pkgconfig/bumperbot_localization.pc'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/lib/python3.10/site-packages'
+[0.639s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_localization/bin'
+[0.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.sh'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.bash'
+[0.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_localization/share/bumperbot_localization/package.zsh'
+[0.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_localization/share/colcon-core/packages/bumperbot_localization)
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_pose_estimation' with build type 'ament_cmake'
+[0.641s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/ros2-aruco-pose-estimation/aruco_pose_estimation'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_msgs)
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs' for CMake module files
+[0.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_msgs
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs' for CMake config files
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_msgs', 'cmake_prefix_path')
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.ps1'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_msgs', 'ld_library_path_lib')
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.sh'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/bin'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib/pkgconfig/bumperbot_msgs.pc'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib/python3.10/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/bin'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.sh'
+[0.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.bash'
+[0.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.zsh'
+[0.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/colcon-core/packages/bumperbot_msgs)
+[0.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_msgs)
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs' for CMake module files
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs' for CMake config files
+[0.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_msgs', 'cmake_prefix_path')
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.ps1'
+[0.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/cmake_prefix_path.sh'
+[0.657s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib'
+[0.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_msgs', 'ld_library_path_lib')
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.ps1'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.dsv'
+[0.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/hook/ld_library_path_lib.sh'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/bin'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib/pkgconfig/bumperbot_msgs.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib/python3.10/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_msgs/bin'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.ps1'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.sh'
+[0.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.bash'
+[0.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.zsh'
+[0.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_msgs/share/colcon-core/packages/bumperbot_msgs)
+[0.663s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_cpp_examples' with build type 'ament_cmake'
+[0.663s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/datvu/bumperbot_ws/src/bumperbot_cpp_examples'
+[0.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.664s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.667s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples' with build type 'ament_python'
+[0.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'ament_prefix_path')
+[0.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.ps1'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.dsv'
+[0.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.668s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/aruco_pose_estimation': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_pose_estimation -- -j16 -l16
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_controller
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.830s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples'
+[0.830s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.830s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/ros2_aruco_interfaces -- -j16 -l16
+[0.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/ros2_aruco_interfaces
+[0.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_cpp_examples
+[0.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[0.838s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_controller
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[0.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/bin'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/bin'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[0.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[0.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[0.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[0.845s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_controller)
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller' for CMake module files
+[0.845s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller' for CMake config files
+[0.846s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_controller', 'cmake_prefix_path')
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.ps1'
+[0.846s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.dsv'
+[0.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/hook/cmake_prefix_path.sh'
+[0.847s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/bin'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib/pkgconfig/bumperbot_controller.pc'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/lib/python3.10/site-packages'
+[0.848s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_controller/bin'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.sh'
+[0.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.bash'
+[0.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.zsh'
+[0.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_controller/share/colcon-core/packages/bumperbot_controller)
+[0.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[0.862s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[0.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/bumperbot_cpp_examples
+[0.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[0.865s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[0.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[0.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[0.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples)
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples' for CMake module files
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples' for CMake config files
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_cpp_examples', 'cmake_prefix_path')
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.ps1'
+[0.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/hook/cmake_prefix_path.sh'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib/pkgconfig/bumperbot_cpp_examples.pc'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/lib/python3.10/site-packages'
+[0.868s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/bin'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.ps1'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.sh'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.bash'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.zsh'
+[0.870s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples/share/colcon-core/packages/bumperbot_cpp_examples)
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/datvu/bumperbot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/datvu/bumperbot_ws/build/ros2_aruco/build install --record /home/datvu/bumperbot_ws/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[0.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces' for CMake module files
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/ros2_aruco_interfaces
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces' for CMake config files
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib'
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[0.888s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[0.888s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces' for CMake module files
+[0.889s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces' for CMake config files
+[0.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[0.891s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib'
+[0.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[0.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/bin'
+[0.892s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib/python3.10/site-packages'
+[0.893s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/bin'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[0.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[0.894s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[0.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/aruco_pose_estimation' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_pose_estimation -- -j16 -l16
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/build/aruco_pose_estimation': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_pose_estimation
+[0.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_pose_estimation)
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation' for CMake module files
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/build/aruco_pose_estimation' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/datvu/bumperbot_ws/build/aruco_pose_estimation
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation' for CMake config files
+[0.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_pose_estimation', 'cmake_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.dsv'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.sh'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/bin'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib/pkgconfig/aruco_pose_estimation.pc'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib/python3.10/site-packages'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/bin'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.sh'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.bash'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.zsh'
+[1.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/colcon-core/packages/aruco_pose_estimation)
+[1.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_pose_estimation)
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation' for CMake module files
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation' for CMake config files
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_pose_estimation', 'cmake_prefix_path')
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/hook/cmake_prefix_path.sh'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/bin'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib/pkgconfig/aruco_pose_estimation.pc'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/lib/python3.10/site-packages'
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/bin'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.bash'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/aruco_pose_estimation/package.zsh'
+[1.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/aruco_pose_estimation/share/colcon-core/packages/aruco_pose_estimation)
+[1.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/datvu/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/datvu/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco' for CMake module files
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/datvu/bumperbot_ws/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/datvu/bumperbot_ws/build/ros2_aruco/build install --record /home/datvu/bumperbot_ws/build/ros2_aruco/install.log --single-version-externally-managed install_data
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco' for CMake config files
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco/lib'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco/bin'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco/lib/python3.10/site-packages'
+[1.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/ros2_aruco/bin'
+[1.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/package.sh'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/package.bash'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[1.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples' for CMake module files
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/datvu/bumperbot_ws/src/bumperbot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/aruco_interfaces LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/datvu/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/datvu/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/datvu/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.396s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples' for CMake config files
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/bin'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/pkgconfig/bumperbot_py_examples.pc'
+[1.397s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages'
+[1.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'pythonpath')
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.ps1'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.dsv'
+[1.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.sh'
+[1.399s] Level 1:colcon.colcon_core.environment:checking '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/bin'
+[1.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_py_examples)
+[1.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.ps1'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.dsv'
+[1.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.sh'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.bash'
+[1.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples/package.zsh'
+[1.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/datvu/bumperbot_ws/install/bumperbot_py_examples/share/colcon-core/packages/bumperbot_py_examples)
+[1.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.402s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.402s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.405s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.405s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.467s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.467s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/datvu/bumperbot_ws/install/local_setup.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/datvu/bumperbot_ws/install/_local_setup_util_ps1.py'
+[1.469s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/datvu/bumperbot_ws/install/setup.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/datvu/bumperbot_ws/install/local_setup.sh'
+[1.470s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/datvu/bumperbot_ws/install/_local_setup_util_sh.py'
+[1.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/datvu/bumperbot_ws/install/setup.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/datvu/bumperbot_ws/install/local_setup.bash'
+[1.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/datvu/bumperbot_ws/install/setup.bash'
+[1.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/datvu/bumperbot_ws/install/local_setup.zsh'
+[1.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/datvu/bumperbot_ws/install/setup.zsh'
