@@ -7,7 +7,7 @@ Dự án mô phỏng robot bám theo ArUco Marker sử dụng ROS 2 Humble và G
 **Yêu cầu:** Ubuntu 22.04, ROS 2 Humble.
 
 ### Cài đặt Dependencies
-```bash
+```
 sudo apt update && sudo apt install -y \
     ros-humble-ros2-controllers \
     ros-humble-gazebo-ros-pkgs \
@@ -23,15 +23,19 @@ Build Workspace
 Bash
 
 # 1. Tạo workspace và clone repos
+```
 mkdir -p ~/aruco_tracking_ws/src
 cd ~/aruco_tracking_ws/src
 git clone <URL_REPO_CUA_BAN>  # Thay bằng link repo của bạn
 git clone [https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation](https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation)
+```
 
 # 2. Build
+```
 cd ~/aruco_tracking_ws
 colcon build --symlink-install
 source install/setup.bash
+```
 2. Cấu hình (Configuration)
 ⚠️ Quan trọng:
 
@@ -47,7 +51,7 @@ camera_frame: Tên frame camera của robot.
 
 3. Hướng dẫn chạy (Usage)
 Mở 3 Terminal, chạy lần lượt (nhớ source install/setup.bash ở mỗi terminal):
-
+```
 Terminal 1: Khởi động Mô phỏng
 
 Bash
@@ -63,21 +67,19 @@ Terminal 3: Chạy Controller
 Bash
 
 ros2 run bumperbot_controller control.py
+```
 📦 Phụ lục: Tạo ArUco Box trong Gazebo
 Tạo thư mục: ~/.gazebo/models/my_aruco_box/ Cấu trúc file cần có:
-
-Plaintext
-
+```
 my_aruco_box/
 ├── model.config
 ├── model.sdf
 └── materials
     ├── scripts/marker.material
     └── textures/marker.png  <-- (File ảnh ArUco của bạn)
+```
 1. model.config
-
-XML
-
+```
 <?xml version="1.0"?>
 <model>
   <name>My ArUco Box</name>
@@ -85,10 +87,9 @@ XML
   <sdf version="1.5">model.sdf</sdf>
   <description>Simple ArUco Box</description>
 </model>
+```
 2. materials/scripts/marker.material
-
-Plaintext
-
+```
 material Aruco/Marker {
   technique {
     pass {
@@ -96,10 +97,9 @@ material Aruco/Marker {
     }
   }
 }
+```
 3. model.sdf
-
-XML
-
+```
 <?xml version="1.0" ?>
 <sdf version="1.5">
   <model name="my_aruco_box">
@@ -121,4 +121,5 @@ XML
     </link>
   </model>
 </sdf>
+```
 Sau đó vào Gazebo -> Insert -> Chọn "My ArUco Box".
