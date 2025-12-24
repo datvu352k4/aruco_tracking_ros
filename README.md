@@ -20,14 +20,13 @@ sudo apt update && sudo apt install -y \
     ros-humble-tf-transformations
 ```
 Build Workspace
-Bash
 
 # 1. Tạo workspace và clone repos
 ```
 mkdir -p ~/aruco_tracking_ws/src
 cd ~/aruco_tracking_ws/src
-git clone <URL_REPO_CUA_BAN>  # Thay bằng link repo của bạn
-git clone [https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation](https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation)
+git clone https://github.com/datvu352k4/aruco_tracking_ros.git
+git clone https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation
 ```
 
 # 2. Build
@@ -53,19 +52,12 @@ camera_frame: Tên frame camera của robot.
 Mở 3 Terminal, chạy lần lượt (nhớ source install/setup.bash ở mỗi terminal):
 ```
 Terminal 1: Khởi động Mô phỏng
-
-Bash
-
 ros2 launch bumperbot_bringup simulated_robot.launch.py
+
 Terminal 2: Chạy thuật toán nhận diện
-
-Bash
-
 ros2 launch aruco_pose_estimation aruco_pose_estimation.launch.py
+
 Terminal 3: Chạy Controller
-
-Bash
-
 ros2 run bumperbot_controller control.py
 ```
 📦 Phụ lục: Tạo ArUco Box trong Gazebo
@@ -123,3 +115,7 @@ material Aruco/Marker {
 </sdf>
 ```
 Sau đó vào Gazebo -> Insert -> Chọn "My ArUco Box".
+
+# Tham khảo
+https://github.com/AntoBrandi/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/tree/gz-classic
+https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation
