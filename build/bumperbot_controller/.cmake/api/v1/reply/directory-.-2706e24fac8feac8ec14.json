@@ -119,7 +119,7 @@
 			{
 				"command" : 9,
 				"file" : 3,
-				"line" : 49,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -403,7 +403,8 @@
 			"paths" : 
 			[
 				"bumperbot_controller/simple_controller.py",
-				"bumperbot_controller/noisy_controller.py"
+				"bumperbot_controller/noisy_controller.py",
+				"bumperbot_controller/control.py"
 			],
 			"type" : "file"
 		},

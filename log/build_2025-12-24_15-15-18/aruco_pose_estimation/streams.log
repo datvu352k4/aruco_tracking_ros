@@ -1,0 +1,9 @@
+[0.175s] Invoking command in '/home/datvu/bumperbot_ws/build/aruco_pose_estimation': CMAKE_PREFIX_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces:/home/datvu/bumperbot_ws/install/bumperbot_cpp_examples:/home/datvu/bumperbot_ws/install/bumperbot_msgs:/home/datvu/bumperbot_ws/install/bumperbot_localization:/home/datvu/bumperbot_ws/install/bumperbot_firmware:/home/datvu/bumperbot_ws/install/bumperbot_description:/home/datvu/bumperbot_ws/install/bumperbot_controller:/home/datvu/bumperbot_ws/install/bumperbot_bringup:/home/datvu/bumperbot_ws/install/aruco_pose_estimation:/home/datvu/bumperbot_ws/install/ros2_aruco:/home/datvu/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/datvu/bumperbot_ws/install/aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/ros2_aruco_interfaces/lib:/home/datvu/bumperbot_ws/install/bumperbot_msgs/lib:/home/datvu/bumperbot_ws/install/bumperbot_firmware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/datvu/bumperbot_ws/build/aruco_pose_estimation -- -j16 -l16
+[0.218s] Built target ament_cmake_python_copy_aruco_pose_estimation
+[0.365s] running egg_info
+[0.377s] writing aruco_pose_estimation.egg-info/PKG-INFO
+[0.377s] writing dependency_links to aruco_pose_estimation.egg-info/dependency_links.txt
+[0.377s] writing top-level names to aruco_pose_estimation.egg-info/top_level.txt
+[0.411s] reading manifest file 'aruco_pose_estimation.egg-info/SOURCES.txt'
+[0.411s] writing manifest file 'aruco_pose_estimation.egg-info/SOURCES.txt'
+[0.434s] Built target ament_cmake_python_build_aruco_pose_estimation_egg

@@ -7,6 +7,7 @@
 /home/datvu/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
 /home/datvu/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
 /home/datvu/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+/home/datvu/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/control.py
 /home/datvu/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
 /home/datvu/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
 /home/datvu/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
@@ -18,6 +19,7 @@
 /home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
 /home/datvu/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
 /home/datvu/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+/home/datvu/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/control.py
 /home/datvu/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
 /home/datvu/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
 /home/datvu/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh

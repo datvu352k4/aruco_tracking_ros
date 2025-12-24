@@ -36,13 +36,14 @@ install(TARGETS
 )
 
 install(
-  DIRECTORY launch config
+  DIRECTORY launch config 
   DESTINATION share/${PROJECT_NAME}
 )
 
 install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
   ${PROJECT_NAME}/noisy_controller.py
+  ${PROJECT_NAME}/control.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

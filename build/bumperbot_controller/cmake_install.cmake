@@ -121,6 +121,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/bumperbot_controller" TYPE PROGRAM FILES
     "/home/datvu/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/simple_controller.py"
     "/home/datvu/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/noisy_controller.py"
+    "/home/datvu/bumperbot_ws/src/bumperbot_controller/bumperbot_controller/control.py"
     )
 endif()
 
