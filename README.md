@@ -117,5 +117,5 @@ material Aruco/Marker {
 Sau đó vào Gazebo -> Insert -> Chọn "My ArUco Box".
 
 # Tham khảo
-https://github.com/AntoBrandi/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/tree/gz-classic
-https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation
+* https://github.com/AntoBrandi/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/tree/gz-classic
+* https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation
